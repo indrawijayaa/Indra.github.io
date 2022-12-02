@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: marhey;
+    src: url(marhey-semibold.ttf);
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(208, 208, 208);
+}
+
+.nav {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 8px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: marhey;
+    margin-top: 10px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ul li{
+    margin-left: 50px;
+    margin-right: 80px;
+    font-weight: 750;
+    font-size: 17px;
+}
+
+.logo{
+    font-weight: 700;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.backgrounddd {
+    display: flex;
+    width: 100%;
+    height: 715px;  
+}
+
+.backgroundd {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./foto/backgr.jpeg);
+}
+
+.black {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.profilimg {
+    position: absolute;
+    display: flex;
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+    background-image: url(./foto/p.png);
+    background-size: cover;
+    background-position: -80px;
+    margin-top: 220px;
+    margin-left: 66%;    
+    opacity: 0.7;
+}
+
+.hy {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-left: 14%;
+    padding-top: 15%;
+    font-family: marhey;
+    font-weight: bold;
+}
+
+.welcome {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: marhey;
+    margin-top: 21%;
+    margin-left: 20%;
+}
+
+.section2 {
+    height: 100vh ;
+    padding-top: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.block1 {
+    display: flex;
+}
+
+.block {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.myimg {
+    width: 300px;
+    height: 300px;
+    background-image: url(./foto/oi.png);
+    background-size: cover;
+    background-position: -60px;
+    margin-top: 100px;
+    margin-left: -250px;
+}
+
+.whoami {
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+    margin-top: -300px;
+    margin-left: -125px;
+    font-family: marhey;
+}
+
+.hello {
+    font-weight: 900;
+    text-align: center;
+    font-size: 35px;
+    margin-left: -140px;
+    font-family: marhey;
+}
+
+.line {
+    margin-top: -89px;
+}
+
+.linee {
+    margin-left: 830px;
+    border: 0 none;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+}
+
+.lineee {
+    margin-left: 830px;
+    border: 0 none;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    margin-top: 20px;
+}
+
+.lineeee {
+    margin-left: 830px;
+    border: 0 none;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    margin-top: 20px;
+}
+
+.lineeeee {
+    margin-left: 830px;
+    border: 0 none;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    margin-top: 20px;
+}
+
+.hello1 {
+    width: 135px;
+    height: 15px;
+    background-color: rgb(244, 244, 37);
+    margin-left: 630px;
+    margin-top: -15px;
+}
+
+.garis1 {
+    width: 250px;
+    height: 70px;
+    background-image: url(./foto/garisgaris.png);
+    background-size: cover;
+    margin-top: -90px;
+    margin-left: 880px;
+}
+
+.p1{
+    margin-left: 631px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.p2{
+    margin-left: 631px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.p3{
+    margin-left: 631px;
+    font-weight: bold;
+}
+
+.myskills {
+    width: 100px;
+    height: 40px;
+    border-radius: 15%;
+    background-color: rgb(48, 48, 48);
+    margin-left: 630px;
+    margin-top: 10px;
+}
+
+.myskills1 {
+    color: rgb(233, 232, 232);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.p4, .p5, .p6 {
+    margin-left: 631px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.line1 {
+    width: 200px;
+    height: 6px;
+    background-image: url(./foto/line\ 1.png);
+    background-size: cover;
+    margin-left: 631px;
+    margin-top: 10px;
+}
+
+.line2 {
+    width: 200px;
+    height: 6px;
+    background-image: url(./foto/line\ 1.png);
+    background-size: cover;
+    margin-left: 631px;
+    margin-top: 10px;
+}
+
+.line3 {
+    width: 140px;
+    height: 4px;
+    background-image: url(./foto/line\ 2.png);
+    background-size: cover;
+    margin-left: 631px;
+    margin-top: 10px;
+}
+
+.bottom1 {
+    width: 100%;
+    height: 40px;
+}
+
+.section3 {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+}
+
+.kgallery {
+    padding-top: 5px;
+}
+
+.gallery {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800; 
+    margin-top: -40px;
+}
+
+.kotak{
+    width: 220px;
+    height: 20px;
+    background-color: rgb(212, 212, 37);
+    margin-left: 680px;
+    margin-top: 60px;
+}
+.navitem2 {
+    align-items: center;    
+    margin-top: 50px;
+}
+
+.ul {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgcontent {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 290px;
+    margin-top: 50px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .design1 {
+    width: 20%;
+    height: 100%;
+}
+
+.space1, .space2 {
+    width: 2%;
+    height: 100%;
+}
+
+.img1 {
+    background-image: url(./foto/lampion2.jpg    );
+    background-size: cover;
+    background-position: -3px;
+}
+
+.img2 {
+    background-image: url(./foto/4.jpg);
+    background-size: cover;
+    background-position: -55px;
+}
+
+.img3 {
+    background-image: url(./foto/lampion1.jpg);
+    background-size: cover;
+    background-position: 0px -140px;
+}
+
+.img4 {
+    background-image: url(./foto/5.JPG);
+    background-size: cover;
+    background-position: -50px 20px;
+}
+
+.img5 {
+    background-image: url(./foto/6.jpg);
+    background-size: cover;
+    background-position: 0px -30px;
+}
+
+.img6 {
+    background-image: url(./foto/mobil.JPG);
+    background-size: cover;
+    background-position: 3px;
+}
+
+.img7 {
+    background-image: url(./foto/7.JPG);
+    background-size: cover;
+    background-position: -80px;
+}
+
+.img8 {
+    background-image: url(./foto/lampion3.jpg);
+    background-size: cover;
+    background-position: 0px -150px;
+}
+
+.design1 {
+    background-image: url(./foto/Indra_poster.png);
+    background-size: cover;
+}
+
+.design2 {
+    background-image: url(./design/design1.png);
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+
+.design3 {
+    background-image: url(./design/Indra_XIIMM2_poster\ promosi\ sekolah.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+}
+
+.videocontent {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 240px;
+    margin-top: 10px;
+}
+
+.video1 .video2 .video3 .video4 .video5 {
+    width: 20%;
+    height: 100%;
+}
+
+.bottom {
+    width: 100%;
+    height: 60px;
+}
+
+.tablinks {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 750;
+    font-size: 17px;
+}
+.tab {
+    position: relative;
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+    padding-left: 27%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+  
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: 1s;
+    font-size: 17px;
+    background-color: rgb(231, 231, 231);
+}
+  
+.tabcontent {
+    display: none;
+    padding: 6px 0px;
+    border-top: none;
+}
+
+.allbottom {
+    margin-bottom: 40px;
+}
+
+.section4 {
+    background-color: rgb(104, 104, 104);
+}
+
+.bg1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), #5c0000), url(./foto/bg1.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.button {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row, .input-group {
+    flex-basis: 48%;
+}
+
+.footer-basic {
+    padding:15px 0;
+    background-color:#161616;
+}
+
+.footer-basic, .social {
+    text-align:center;
+    padding-bottom:20px;
+}
+  
+.instagram, .lineicon, .whatsapp {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-basic, .copyright {
+    text-align:center;
+    font-size:13px;
+    color:rgb(255, 255, 255);
+    margin-bottom:0;
+    opacity: 70%;
+}
+  
+.instagram {
+    background-image: url(./foto/ig\ icon.png);
+    background-size: cover;
+}
+
+.lineicon {
+    background-image: url(./foto/Line-Logo.png);
+    background-size: cover;
+    background-position: -16px;
+}
+
+.whatsapp {
+    background-image: url(./foto/whatsapp.png);
+    background-size: cover;
+}
+
+.thanks {
+    text-align:center;
+    font-size:13px;
+    color:rgb(255, 255, 255);
+    opacity: 70%;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
